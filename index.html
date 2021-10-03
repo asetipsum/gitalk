@@ -11,7 +11,7 @@ var gitalk=new Gitalk({
         repo: 'github-comment',
         owner: 'asetipsum',
         admin: ['asetipsum'],
-        distractionFreeMode:true,
+        distractionFreeMode:false,
         id: md5(location.pathname)
     })
     gitalk.render('gitalk-container');
