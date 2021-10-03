@@ -12,7 +12,7 @@ var gitalk=new Gitalk({
         owner: 'asetipsum',
         admin: ['asetipsum'],
         distractionFreeMode:false,
-        id: md5(window.location.pathname)
+        id: md5(location.pathname)
     })
     gitalk.render('gitalk-container');
 </script>
